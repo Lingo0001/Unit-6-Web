@@ -26,19 +26,19 @@
 
     /* First image (Logo. Full height) */
     .bgimg-1 {
-    background-image: url('/static/imgs/parallax.png');
+    background-image: url('/static/imgs/parallax1.png');
     min-height: 100%;
     }
 
     /* Second image (Portfolio) */
     .bgimg-2 {
-    background-image: url("/static/imgs/parallax.png");
+    background-image: url("/static/imgs/parallax2.png");
     min-height: 400px;
     }
 
     /* Third image (Contact) */
     .bgimg-3 {
-    background-image: url("/static/imgs/parallax.png");
+    background-image: url("/static/imgs/parallax3.png");
     min-height: 400px;
     }
     .w3-wide { letter-spacing: 10px; }
@@ -56,7 +56,7 @@
     
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar" id="navBar">
+        <div class="w3-bar w3-white" id="navBar">
             <a href="javascript:void(0);" class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
@@ -95,48 +95,114 @@
     <!-- Second Parallax Image with Services Text -->
     <div class="bgimg-2 w3-display-container w3-opacity-min">
         <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-grey w3-wide">SERVICES</span>
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SERVICES</span>
         </div>
     </div>
 
     <!-- Container (Services Section) -->
     <div class="w3-content w3-container w3-padding-64" id="services">
-        <h3 class="w3-center">OUR PACKAGES</h3>
-        <p class="w3-center"><em>Here are our current services we offer.</em></p>
+        <h3 class="w3-center">OUR SERVICES</h3>
+        <p class="w3-center">Here at Bermibolo Security, we offer security risk assessments, installation of security systems (including alarms and CCTV), security maintenance and 24/7 monitoring of alarm systems and CCTV footage.</p>
+        <p class="w3-center"><em>Here are our current services we offer:</em></p>
         <br>
         <div class="w3-row-padding">
             <div class="w3-half w3-margin-bottom">
                 <ul class="w3-ul w3-light-grey w3-center">
                     <li class="w3-dark-grey w3-xlarge w3-padding-32">BASIC</li>
-                    <li class="w3-padding-16">3 CCTV Cameras</li>
-                    <li class="w3-padding-16">24 Hour Customer Support</li>
-                    <li class="w3-padding-16">Other Stuff</li>
-                    <li class="w3-padding-16"></li>
-                    <li class="w3-padding-16"></li>
-                    <li class="w3-padding-16">
-                        <h2>£50</h2>
-                    </li>
+                    <li class="w3-padding-16">1 x Alarm System</li>
+                    <li class="w3-padding-16">1 x CCTV Camera</li>
+                    <li class="w3-padding-16">Local CCTV Footage Storage</li>
+                    <li class="w3-padding-16"><b>NOT</b> Centrally Monitored</li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-white w3-padding-large w3-hover-black">Purchase</button>
+                        <button class="w3-button w3-dark-grey w3-padding-large w3-hover-black">
+                            Purchase
+                        </button>
                     </li>
                 </ul>
             </div>
 
-            <div class="w3-half">
+            <div class="w3-half w3-margin-bottom">
                 <ul class="w3-ul w3-light-grey w3-center">
-                    <li class="w3-red w3-xlarge w3-padding-32">PRO</li>
-                    <li class="w3-padding-16">9 CCTV Cameras</li>
-                    <li class="w3-padding-16">24 Hour Customer Support</li>
-                    <li class="w3-padding-16">2 Turrets</li>
-                    <li class="w3-padding-16">Flamethrower</li>
-                    <li class="w3-padding-16">
-                        <h2>£150</h2>
-                    </li>
+                    <li class="w3-green w3-xlarge w3-padding-32">STANDARD</li>
+                    <li class="w3-padding-16">1 x Alarm System</li>
+                    <li class="w3-padding-16">2 x CCTV Cameras</li>
+                    <li class="w3-padding-16">Online + Local CCTV Footage Storage</li>
+                    <li class="w3-padding-16"><b>NOT</b> Centrally Monitored</li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-white w3-padding-large w3-hover-black">Purchase</button>
+                        <button class="w3-button w3-green w3-padding-large w3-hover-black">
+                            Purchase
+                        </button>
                     </li>
                 </ul>
             </div>
+
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-light-grey w3-center">
+                    <li class="w3-blue w3-xlarge w3-padding-32">DELUXE</li>
+                    <li class="w3-padding-16">1 x Alarm System</li>
+                    <li class="w3-padding-16">4 x CCTV Cameras</li>
+                    <li class="w3-padding-16">Online + Local CCTV Footage Storage</li>
+                    <li class="w3-padding-16">Centrally Monitored</li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-blue w3-padding-large w3-hover-black">
+                            Purchase
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-light-grey w3-center">
+                    <li class="w3-red w3-xlarge w3-padding-32">CUSTOM</li>
+                    <li class="w3-padding-16">Need something special?</li>
+                    <li class="w3-padding-16">Contact Us for more information.</li>
+                    <li class="w3-padding-16">We understand security is different for</li>
+                    <li class="w3-padding-16">everyone.</li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <a class="w3-button w3-red w3-padding-large w3-hover-black" href="#contact">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with Contact Us Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT</span>
+        </div>
+    </div>
+    
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">CONTACT US</h3>
+        <p class="w3-center"><em>Contact us for more information!</em></p>
+
+        <div id="map" style="width:300px;height:300px;background:green" class="w3-col m4 w3-container">
+        </div>
+
+        <div class="w3-col m8 w3-panel">
+            <div class="w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bedford, England<br>
+                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +44 07000000000<br>
+                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: support@bermibolosecurity.co.uk<br>
+            </div>
+            <form action="" target="_blank">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                        <input type="text" class="w3-input w3-border" placeholder="Name" required name="Name">
+                    </div>
+                    <div class="w3-half">
+                        <input type="text" class="w3-input w3-border" placeholder="Email" required name="Email">
+                    </div>
+                </div>
+                <input type="text" class="w3-input w3-border" placeholder="Message" required name="Message">
+                <button class="w3-button w3-black w3-right w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
         </div>
     </div>
 
@@ -144,5 +210,16 @@
 
     <script src="static/js/three.js"></script>
     <script src="static/js/index.js"></script>
+    <script>  
+        function Map123() {  
+        var mapOptions = {  
+            center:new google.maps.LatLng(51.518543,-0.129481),  
+            zoom: 10,  
+            mapTypeId: google.maps.MapTypeId.HYBRID  
+        }  
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);  
+        }  
+    </script>  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=Map123"></script>          
 </body>
 </html>
