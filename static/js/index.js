@@ -1,10 +1,3 @@
-// Modal Image Gallery
-function onClick(e) {
-    document.getElementById('img01').src = e.src;
-    document.getElementById('modal01').style.display = "block";
-    var captionText = document.getElementById('caption');
-    captionText.innerHTML = e.alt;
-}
 
 // Change style of navbar on scroll
 window.onscroll = function() { myFunction() };
