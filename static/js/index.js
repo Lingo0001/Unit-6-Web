@@ -1,4 +1,3 @@
-
 // Change style of navbar on scroll
 window.onscroll = function() { myFunction() };
 function myFunction() {
@@ -18,4 +17,15 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
+}
+
+// Contact Form Validation
+function validateForm() {
+    let formEmail = document.forms["contactForm"]["EmailBox"].value;
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formEmail) == false) {
+        alert("Email is invalid");
+    }
+    let formName = document.forms["contactForm"]["NameBox"].value;
+    let formMsg = document.forms["contactForm"]["MessageBox"].value;
+    console.log(formName, formEmail, "\n", formMsg);
 }
