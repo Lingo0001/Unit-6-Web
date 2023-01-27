@@ -9,3 +9,10 @@ The company owners have decided that it would be beneficial to the business to h
 own website. You work for the web-development company that has been hired plan and
 develop their new website.
 
+## _Requirements_
+- Modern and engaging design
+- Help improve the brand awareness of the company
+- Provide potential customers with information about the company, services and security advice
+- Allow customers to contact the company
+- An adaptive layout for users on mobile or desktop
+- Accessibility features to enable a wide range of users to use the site easily
