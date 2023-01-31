@@ -1,6 +1,5 @@
 @import url('w3.css');
 body { margin: 0; }
-body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif; } 
 body, html {
     height: 100%;
     color: #777;
@@ -23,7 +22,7 @@ body, html {
     background-image: url("/static/imgs/parallax2.png");
     min-height: 400px;
 }
-/* Third image (Contact) */
+/* Third image (Contact Us) */
 .bgimg-3 {
     background-image: url("/static/imgs/parallax3.png");
     min-height: 400px;
@@ -33,7 +32,7 @@ body, html {
     background-image: url("/static/imgs/parallax4.png");
     min-height: 100%;
 }
-/* Fifth Image (About Us 2) */
+/* Fifth Image (Contact Us 2) */
 .bgimg-5 {
     background-image: url("/static/imgs/parallax5.png");
     min-height: 100%;
