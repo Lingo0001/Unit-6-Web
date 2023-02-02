@@ -1,6 +1,6 @@
 # BERIMBOLO SECURITY
-## _BTEC IT Unit 6 Project_
 
+## _BTEC IT Unit 6 Project_
 
 > Berimbolo Security sell and install security systems for homes and small businesses. The
 company has recently seen an increase in demand for the services they provide. To meet this
@@ -10,6 +10,7 @@ own website. You work for the web-development company that has been hired plan a
 develop their new website.
 
 ## _Requirements_
+
 - Modern and engaging design
 - Help improve the brand awareness of the company
 - Provide potential customers with information about the company, services and security advice
