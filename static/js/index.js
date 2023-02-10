@@ -29,5 +29,3 @@ function validateForm() {
     let formMsg = document.forms["contactForm"]["MessageBox"].value;
     console.log(formName, formEmail, "\n", formMsg);
 }
-
-// hello lol
