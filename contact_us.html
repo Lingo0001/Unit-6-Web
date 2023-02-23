@@ -18,7 +18,7 @@
         body,p { font-family: "Raleway", sans-serif; } 
         h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif;}
     </style>
-    <title>Contact Us | BermiboloSecurity</title>
+    <title>Contact Us | BerimboloSecurity</title>
 </head>
 <body>
     
@@ -63,20 +63,20 @@
                 <div class="w3-large w3-margin-bottom">
                     <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bedford, England<br>
                     <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +44 07000000000<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: admin@BermiboloSecurity.co.uk<br>
+                    <a href="mailto:admin@BerimboloSecurity.co.uk"></a><i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: admin@BerimboloSecurity.co.uk<br>
                 </div>
                 <p>Leave a message or book a meeting:</p>
-                <form action="" id="contactForm">
+                <form  method="POST" id="contactForm" action="contact.php">
                     <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                         <div class="w3-half">
-                            <input type="text" class="w3-input w3-border" placeholder="Name" required name="Name" id="NameBox">
+                            <input type="text" class="w3-input w3-border" placeholder="Name" required name="name" id="NameBox">
                         </div>
                         <div class="w3-half">
-                            <input type="text" class="w3-input w3-border" placeholder="Email" required name="Email" id="EmailBox">
+                            <input type="text" class="w3-input w3-border" placeholder="Email" required name="email" id="EmailBox">
                         </div>
                     </div>
-                    <input type="text" class="w3-input w3-border" placeholder="Message" required name="Message" id="MessageBox">
-                    <button class="w3-button w3-black w3-right w3-section" onclick="validateForm()">
+                    <input type="text" class="w3-input w3-border" placeholder="Message" required name="message" id="MessageBox">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit" value="SEND">
                         <i class="fa fa-paper-plane"></i> SEND MESSAGE
                     </button>
                 </form>
@@ -94,7 +94,7 @@
         <div class="w3-section">
             <i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right"></i> Bedford, England<br>
             <i class="fa fa-phone fa-fw w3-xlarge w3-margin-right"></i> Phone: +44 07000000000<br>
-            <i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"></i> Email: admin@BermiboloSecurity.co.uk<br>
+            <i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"></i> Email: admin@BerimboloSecurity.co.uk<br>
         </div>
         <div class="w3-xlarge w3-section">
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
